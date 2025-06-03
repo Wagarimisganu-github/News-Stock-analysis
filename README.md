@@ -116,6 +116,19 @@ Render new visualizations
 
 📜 License This project is licensed under the MIT License. Feel free to use, modify, and distribute with proper attribution.
 
+Project Structure Overview
+kaim-week1-sentiment-stock-analysis/
+├── data/ # Cleaned price and sentiment files
+├── notebooks/
+│ └── task3_sentiment_analysis.ipynb
+├── scripts/
+│ ├── utils.py # Data loading & training utilities
+│ └── indicators_talib.py# Fallback indicator logic
+├── reports/ # Report assets
+├── .github/workflows/ # CI with GitHub Actions
+└── requirements.txt
+
+
 📬 Contact For questions, suggestions, or collaboration inquiries:
 
 Email: wagarimisganu12@gmail.com Or open an issue in the repository.
